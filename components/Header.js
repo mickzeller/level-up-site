@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react'
-import Emoji from '../utils/emoji'
 
 const Header = () => {
   return (
@@ -9,7 +8,7 @@ const Header = () => {
         <a className="linkStyle">Home</a>
       </Link>
       <Link href="/hashtables">
-        <a className="linkStyle"><Emoji symbol="⌗" label="hashtag"/> Hashtables <Emoji symbol="🗄" label="files"/></a>
+        <a className="linkStyle">Hashtables</a>
       </Link>
       <style jsx>{`
         .banner {
